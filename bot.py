@@ -6,7 +6,7 @@ import asyncio
 
 bot = commands.Bot(command_prefix=['$'])
 
-key = BOT_KEY_HERE
+key = "BOT_KEY_HERE"
 
 @bot.event
 async def on_ready():
