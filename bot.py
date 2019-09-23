@@ -6,8 +6,7 @@ import asyncio
 
 bot = commands.Bot(command_prefix=['$'])
 
-data = json.load(open('config.json'))
-key = KEY_HERE
+key = BOT_KEY_HERE
 
 @bot.event
 async def on_ready():
